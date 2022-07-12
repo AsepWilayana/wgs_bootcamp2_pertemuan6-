@@ -61,10 +61,10 @@ const save_context = (name, email, mobile) => {
         }
     
     validphone = validator.isMobilePhone(mobile, "id-ID");
-            if (validphone === false) {
-                console.log('phone number salah');
-                return;
-            }
+        if (validphone === false) {
+            console.log('phone number salah');
+            return;
+        }
     //tambhakan ke file
     contacts.push(contact);
 
